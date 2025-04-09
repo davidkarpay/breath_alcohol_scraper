@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+  username: davidkarpay
+  password:
+
+development:
+  <<: *default
+  database: breath_alcohol_scraper_development
+
+test:
+  <<: *default
+  database: breath_alcohol_scraper_test
+
+production:
+  <<: *default
+  database: breath_alcohol_scraper_production
+  username: breath_alcohol_scraper
+  password: <%= ENV["BREATH_ALCOHOL_SCRAPER_DATABASE_PASSWORD"] %>

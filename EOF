@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+gem "rails", "~7.1"
+gem "pg", "~> 1.5.9", :install_options => { "--with-pg-config" => "/opt/homebrew/opt/libpq/bin/pg_config" }
+EOF
+bundle install

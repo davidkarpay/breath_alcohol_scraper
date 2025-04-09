@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  source_url: one
+  filename: MyString
+  file_path: MyString
+  status: MyString
+  downloaded_at: 2025-04-08 22:09:53
+  file_size: 1
+
+two:
+  source_url: two
+  filename: MyString
+  file_path: MyString
+  status: MyString
+  downloaded_at: 2025-04-08 22:09:53
+  file_size: 1

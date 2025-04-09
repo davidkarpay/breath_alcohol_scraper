@@ -1,0 +1,2 @@
+class WebSource < ApplicationRecord
+end

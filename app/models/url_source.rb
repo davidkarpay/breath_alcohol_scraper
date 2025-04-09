@@ -1,0 +1,2 @@
+class UrlSource < ApplicationRecord
+end
